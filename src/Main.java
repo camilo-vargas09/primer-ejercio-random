@@ -23,6 +23,9 @@ public class Main {
         } else if (guardarDato1 == guardarDato2 && guardarDato1 > guardarDato3) {
             System.out.println("Empate entre dado 1 y dado 2 como ganadores.");
             System.out.println("El tercer lugar es del dado 3.");
+        }else if (guardarDato1 == guardarDato2 && guardarDato1 < guardarDato3) {
+                System.out.println("El primer lugar es del dado 1.");
+                System.out.println("Empate entre dado 1 y dado 2 como perdedores.");
         } else if (guardarDato1 == guardarDato3 && guardarDato1 > guardarDato2) {
             System.out.println("Empate entre dado 1 y dado 3 como ganadores.");
             System.out.println("El tercer lugar es del dado 2.");
